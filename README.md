@@ -1,28 +1,43 @@
 # Southeast Asia Trade Analysis (2005–2024)
 
-Overview
-This project analyzes trade patterns for six ASEAN economies — **Malaysia, Philippines, Vietnam, Thailand, Indonesia, Singapore** — from 2005 to 2024.  
-We track:
-- Trade balance** (% of GDP)
-- Exports vs. Imports** (% of GDP)
+## Overview
+This project analyzes trade patterns for six ASEAN economies — **Malaysia, Philippines, Vietnam, Thailand, Indonesia, Singapore** — from 2005 to 2024.
 
-Key Visuals
+The analysis covers:
+- **Trade balance** (% of GDP)
+- **Exports vs. Imports** (% of GDP)
+- **Long-term average trade performance**
+- **Top Movers** — changes in trade shares between 2005 and 2024
+
+## Key Visuals
+### 1. Trade Balance Trends
 ![Trade Balance](images/asean6_trade_balance.png)
+
+### 2. Exports vs Imports
 ![Exports vs Imports](images/asean6_exports_imports.png)
+
+### 3. Average Trade Balance
 ![Average Trade Balance](images/asean6_avg_trade_balance.png)
 
-🧾 Summary Table (Excel)
-- `data/processed/asean6_trade_summary.xlsx`  
-  (Best/Worst trade-balance year and values per country)
+### 4. Top Movers (Exports & Imports Changes 2005–2024)
+![Top Movers Combined](images/asean6_top_movers_combined.png)
 
-## Quick Insights (edit these after a glance)
-- Singapore and Malaysia show persistently higher **exports (% of GDP)** relative to imports.
-- Vietnam’s **exports share** grew notably post-2010, narrowing the import gap.
-- The Philippines and Indonesia show **tighter spreads** between exports and imports (more balanced shares).
+## Summary Tables
+- **[ASEAN6 Trade Summary (Excel)](data/processed/asean6_trade_summary.xlsx)**  
+  Best and worst trade-balance years for each country.
+- **[ASEAN6 Top Movers (Excel)](data/processed/asean6_top_movers.xlsx)**  
+  Change in exports and imports (% of GDP) between 2005 and 2024.
 
-##  Reproduce
-**Data file**: `TRADE1.xlsx` (sheet `Data`) with columns: `COUNTRY, YEAR, EXPORT, IMPORT, TRADE, GDP`.
+## 🔎 Quick Insights
+- Singapore and Malaysia maintain strong positive trade balances throughout the period.
+- Vietnam’s export share grew significantly post-2010, narrowing its import gap.
+- The Philippines and Indonesia tend toward more balanced trade shares, with smaller gaps between exports and imports.
+- Thailand saw moderate declines in export share but remained positive in trade balance.
 
-**R setup**
+## 🛠️ How to Reproduce
+**Data**: `TRADE1.xlsx` (sheet `Data`) with columns:  
+`COUNTRY | YEAR | EXPORT | IMPORT | TRADE | GDP`
+
+**R Setup**
 ```r
-install.packages(c("tidyverse","readxl","writexl"))
+install.packages(c("tidyverse", "readxl", "writexl"))
