@@ -16,7 +16,7 @@ Tools & Libraries
 - Rstudio: ggplot2, dplyr, readxl
 
 Key Visualizations
-  -Trade Balance
-  -Top Export Partners
+- Trade Balance
+- Top Export Partners
 
 Project Structure
