@@ -1,13 +1,13 @@
 # Southeast Asia Trade Analysis (2005–2024)
 
 ## Overview
-This project analyzes trade patterns for six ASEAN economies — **Malaysia, Philippines, Vietnam, Thailand, Indonesia, Singapore** — from 2005 to 2024.
+This project analyzes trade patterns for six ASEAN economies **Malaysia, Philippines, Vietnam, Thailand, Indonesia, Singapore** from 2005 to 2024.
 
 The analysis covers:
 - **Trade balance** (% of GDP)
 - **Exports vs. Imports** (% of GDP)
 - **Long-term average trade performance**
-- **Top Movers** — changes in trade shares between 2005 and 2024
+- **Top Movers** changes in trade shares between 2005 and 2024
 
 ## Key Visuals
 ### 1. Trade Balance Trends
