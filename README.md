@@ -13,7 +13,6 @@ The analysis covers:
 ### 1. Trade Balance Trends
 ![Trade Balance](images/asean6_trade_balance.png)
 
-**Analysis:**  
 This graph highlights stark differences in trade performance across the ASEAN6. **Singapore** consistently maintains a significantly higher trade balance relative to GDP, likely due to its role as a re-export hub and highly open economy (World Bank, 2023). In contrast, **Indonesia** and **the Philippines** show modest trade balances, reflecting higher dependence on imports and less export diversification. **Malaysia’s** gradual decline might signal structural export shifts, while **Vietnam’s** rising trend reflects FDI inflows and a stronger manufacturing base (ADB, 2022). These patterns offer insights into regional trade competitiveness and exposure to global shocks.
 
 *Sources: World Bank, ADB, IMF (as cited in dataset)*  
